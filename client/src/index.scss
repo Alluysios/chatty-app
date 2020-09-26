@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 150%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    line-height: 1.5;
+    font-family: 'Peddana', serif;
+    background: #ececec;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    &--center {
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+        background: #fff;
+        padding: 1.5rem;
+        border-radius: 6px;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    &-1 {
+        flex: 1 0 80%;
+        background-color: #fff;
+    }
+
+    &-2 {
+        flex: 1;
+        text-align: center;
+        padding: 8px;
+        border: 1px solid #17a2b8;
+        background-color: #fff;
+        border-left: none;
+    }
+}
+
+.align-left {
+    align-self: flex-start;
+}
+
+.align-right {
+    align-self: flex-end;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mt-7 {
+    margin-top: 7px;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin: 0;
+}

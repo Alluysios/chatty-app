@@ -1,0 +1,31 @@
+p {
+    margin: 0;
+}
+
+.room-name {
+    margin: 0;
+    padding: 8px 0 8px 10px;
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+
+.date {
+    margin: 0 6px;
+    font-weight: 700;
+}
+
+#form--chat {
+    display: flex;
+}
+
+.home-btn {
+    flex: 1 0 100%;
+    text-decoration: none;
+    color: #721c24;
+    padding: 12px 0 0 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,34 @@
+.input__group {
+    flex: 1;
+
+    &--secondary {
+        border: 1px solid #17a2b8;
+        border-top: none;
+    }
+}
+
+.input {
+    outline: none;
+    width: 100%;
+    display: block;
+
+    &--none {
+        padding: 16px 6px;
+        border: 1px solid #17a2b8;
+        border-top: none;
+    }
+
+    &--primary {
+        border: 1px solid #000;
+        border-radius: 4px;
+        padding: 10px 6px;
+        margin-bottom: 8px;
+
+    }
+}
+
+.input__label {
+    display: block;
+    font-weight: 600;
+}
+
